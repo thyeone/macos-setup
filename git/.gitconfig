@@ -3,3 +3,6 @@
 	email = thyeonee@gmail.com
 [rebase]
 	autoStash = true
+
+[push]
+	autoSetupRemote = true
