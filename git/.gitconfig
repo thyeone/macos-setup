@@ -1,0 +1,5 @@
+[user]
+	name = Teo
+	email = thyeonee@gmail.com
+[rebase]
+	autoStash = true

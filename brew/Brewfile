@@ -1,0 +1,13 @@
+# brew
+brew "git"
+brew "tree"
+brew "nvm"
+
+# cask(GUI)
+cask "docker"
+cask "raycast"
+cask "warp"
+cask "rectangle"
+cask "cursor"
+cask "dbeaver-community"
+cask "slack"
