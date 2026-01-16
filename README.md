@@ -17,10 +17,10 @@ This repository contains configuration files and automated setup scripts to quic
 ## Quick Start
 
 ```bash
-    git clone https://github.com/thyeone/macos-setup.git
-    cd macos-setup
+git clone https://github.com/thyeone/macos-setup.git
+cd macos-setup
 
-    ./setup.sh
+./setup.sh
 ```
 
 The script will automatically:
