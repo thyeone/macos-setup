@@ -23,11 +23,27 @@ cd macos-setup
 ./setup.sh
 ```
 
-The script will automatically:
+### Installation Modes
 
-- Install Homebrew (if not already installed)
-- Install packages from `brew/Brewfile`
-- Set up Node.js LTS via nvm
-- Configure Git settings
-- Set up zsh configuration
-- Configure Cursor editor settings and extensions
+**Interactive Mode (Default)**
+- The script will prompt you for each configuration step
+- Choose which components to install (y/n)
+- Allows selective installation of only the components you need
+
+**Automatic Mode**
+- Install all components without prompts
+- Use the `--all` flag:
+
+```bash
+./setup.sh --all
+```
+
+### Available Components
+
+The setup script includes the following components:
+
+1. **Homebrew & Packages** - Installs Homebrew and packages from `brew/Brewfile`
+2. **Node.js** - Sets up nvm and installs Node.js LTS
+3. **Git Configuration** - Configures Git settings and global ignore patterns
+4. **Zsh Configuration** - Sets up zsh shell configuration
+5. **Cursor Configuration** - Configures Cursor editor settings and extensions
