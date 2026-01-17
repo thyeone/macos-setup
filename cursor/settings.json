@@ -24,5 +24,6 @@
   },
   "workbench.colorTheme": "Community Material Theme Darker High Contrast",
   "workbench.iconTheme": "material-icon-theme",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false
 }
