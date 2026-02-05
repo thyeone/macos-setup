@@ -6,3 +6,5 @@
 
 [push]
 	autoSetupRemote = true
+[core]
+	excludesFile = /Users/teo/.gitignore
