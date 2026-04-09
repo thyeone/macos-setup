@@ -10,3 +10,4 @@ export PATH=$PATH:$ANDROID_HOME/platform-tool
 
 # alias
 alias cl="claude --dangerously-skip-permissions"
+alias gl="git log --oneline --graph --decorate"                                                                           
